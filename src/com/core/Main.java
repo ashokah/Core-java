@@ -3,8 +3,8 @@ package com.core;
 public class Main {
 
     public static void main(String[] args) {
-
-        System.out.println("hello world");
+        int x=10;
+        System.out.println(x>>2);
 
     }
 }
