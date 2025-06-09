@@ -109,6 +109,26 @@ public class Pattern {
 
 
 
+/*
+         * * * *
+         * * *
+         * *
+         *
+
+*/
+        int a=4;
+        System.out.println(" print inverted pattern");
+        // outer loop
+        for(int i=a;i>=1;i--)
+        {
+            //inner loop
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
 
     }
 }
