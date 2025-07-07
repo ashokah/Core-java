@@ -15,6 +15,7 @@ public class LocalVarDemo {
         System.out.println(x);
         Hello();
         LocalVarDemo l = new LocalVarDemo(400);
+        SwapTwoNumbers(200,400);
     }
 
     static void Hello()
@@ -28,4 +29,24 @@ public class LocalVarDemo {
     {
         System.out.println(x);
     }
+
+    static void SwapTwoNumbers(int a, int b)
+    {
+        System.out.println("Before Swapping");
+        System.out.println(" A value is " +a);
+        System.out.println(" B value is " +b);
+        int temp = a;
+        a=b;
+        b=temp;
+        System.out.println("After Swapping");
+        System.out.println(" A value is " +a);
+        System.out.println(" B value is " +b);
+
+    }
+
+
+
+
+
+
 }
