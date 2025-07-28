@@ -1,3 +1,4 @@
+//protected access modifier
 public class B {
     protected void display()
     {
